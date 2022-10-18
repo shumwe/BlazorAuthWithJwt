@@ -1,0 +1,12 @@
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/bin/Debug/net6.0/BlazorAuthWithJwt.Shared.deps.json
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/bin/Debug/net6.0/BlazorAuthWithJwt.Shared.dll
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/bin/Debug/net6.0/ref/BlazorAuthWithJwt.Shared.dll
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/bin/Debug/net6.0/BlazorAuthWithJwt.Shared.pdb
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.csproj.AssemblyReference.cache
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.AssemblyInfoInputs.cache
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.AssemblyInfo.cs
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.csproj.CoreCompileInputs.cache
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.dll
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/ref/BlazorAuthWithJwt.Shared.dll
+/home/shumwe/Desktop/C#/blazor/BlazorAuthWithJwt/Shared/obj/Debug/net6.0/BlazorAuthWithJwt.Shared.pdb

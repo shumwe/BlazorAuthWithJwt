@@ -1,0 +1,33 @@
+@page "/login"
+@inject HttpClient Http
+@inject AuthenticationStateProvider AuthStateProvider
+@inject ILocalStorageService LocalStorage
+
+<PageTitle>Login</PageTitle>
+
+<EditForm Model="@user" OnSubmit="HandleLogin">
+    <label for="username" class="form-label">Username</label>
+    <InputText id="username" @bind-Value="user.Username" class="form-control" />
+    <label for="password" class="form-label">Password</label>
+    <InputText id="password" type="password" @bind-Value="user.Password" class="form-control" />
+    <div class="mt-3 mb-3 text-center">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+</EditForm>
+
+@code
+{
+    public UserDto user = new UserDto();
+
+    async Task HandleLogin()
+    {
+        var result = await Http.PostAsJsonAsync("api/auth", user);
+        var token = await result.Content.ReadAsStringAsync();
+        Console.WriteLine(token);
+        
+        @* store in localstorage *@
+        await LocalStorage.SetItemAsync("token", token);
+        await AuthStateProvider.GetAuthenticationStateAsync();
+    }
+
+}
